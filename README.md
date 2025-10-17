@@ -1,19 +1,90 @@
-🧩 TaskFlow – Simple and Efficient Task Management App
+# 🧩 TaskFlow – Productivity Dashboard
 
-TaskFlow is a lightweight and responsive web-based task management application built using HTML, CSS, and JavaScript. It provides an intuitive interface that helps users easily organize, prioritize, and track their daily tasks in one place — without the need for any external frameworks or databases.
+**TaskFlow** is a lightweight, responsive web-based task management dashboard built using **pure HTML, CSS, and JavaScript**.  
+It helps users organize, prioritize, and track their daily activities efficiently — with an intuitive drag-and-drop interface and dynamic statistics, all without external frameworks or databases.
 
-🌟 Key Features
+---
 
-Add, Edit, and Delete Tasks – Quickly create new tasks, update existing ones, or remove completed/unnecessary tasks.
+## 🚀 Features
 
-Task Prioritization – Mark important tasks with priority levels to manage your time more effectively.
+### 🧠 Core Features
+- **Add, Edit, and Delete Tasks**  
+  Create new tasks, update existing ones, or remove completed/unnecessary ones instantly.
 
-Progress Tracking – Visual indicators help you monitor which tasks are pending, in progress, or completed.
+- **Priority Levels**  
+  Classify each task by *Low*, *Medium*, or *High* priority to manage workload efficiently.
 
-Responsive Design – Designed with pure CSS for a clean and adaptive layout that works smoothly across all devices.
+- **Progress Tracking Dashboard**  
+  Monitor all your tasks visually through three categories:
+  - 🕓 To Do (Pending)  
+  - ▶️ In Progress  
+  - ✅ Completed  
 
-Filter & Search – Easily filter tasks by status or search using keywords for faster navigation.
+- **Productivity Statistics**  
+  Auto-updated metrics showing total, pending, and completed tasks — plus a calculated productivity score.
 
-💡 Conclusion
+- **Filter by Status**  
+  Quickly switch views between *All*, *Pending*, and *Completed* tasks with a single click.
 
-TaskFlow is a practical project for developers and students who want to understand the fundamentals of front-end web development through hands-on experience. It’s clean, fast, and easy to expand — making it a great starting point for building more complex productivity applications.
+- **Responsive Design**  
+  The layout automatically adapts for desktops, tablets, and mobile screens.
+
+### 💡 Additional Features
+- **Drag and Drop Task Management**  
+  Move tasks seamlessly between columns (To Do, In Progress, Completed).
+
+- **User Profile Modal**  
+  Edit and save user information (name and email) using local storage.
+
+- **Task Detail Modal**  
+  View full task descriptions, deadlines, and priority — with action buttons for editing, starting, completing, or deleting tasks.
+
+- **Local Storage Support**  
+  All tasks and profile data are saved locally in the browser, ensuring persistence without a backend.
+
+- **Smooth Notifications**  
+  Real-time animated pop-ups confirm task actions (added, updated, deleted, completed, etc.).
+
+---
+
+## 🖥️ Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **HTML5** | Structure and semantic layout |
+| **CSS3** | Styling, responsiveness, and animations |
+| **JavaScript (ES6+)** | Application logic, DOM manipulation, and local storage handling |
+| **Font Awesome** | Icons and visual enhancements |
+| **Google Fonts (Inter)** | Modern typography |
+
+---
+
+## 📂 Project Structure
+```
+TaskFlow/
+│
+├── index.html # Main dashboard layout
+├── style.css # Styles and responsive design
+├── script.js # Core logic and functionality
+└── README.md # Project documentation
+```
+
+
+---
+
+## ⚙️ How to Run Locally
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/your-username/taskflow.git
+
+2. **Navigate into the project folder**
+   ```bash
+   cd taskflow
+
+3. **Open the app**
+   Simply open index.html in your preferred browser.
+
+
+## 📂 Project Structure
+

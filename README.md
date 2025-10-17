@@ -86,5 +86,3 @@ TaskFlow/
    Simply open index.html in your preferred browser.
 
 
-## 📂 Project Structure
-
